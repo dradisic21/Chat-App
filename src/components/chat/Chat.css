@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+
+.chat-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: calc(100vh - 0px);
+  margin: 0;
+  padding-top: 100px;
+}
+.chat-message__container {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  border: 1px solid rgb(205, 203, 203);
+  border-radius: 20px;
+  background-color: rgb(36, 35, 35);
+}
+.message-form__item {
+  position: absolute;
+  display: flex;
+  bottom: 20px;
+  left: 180px;
+  
+}
+.message-form__input {
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+}
+.message-form__button {
+  padding-left: 5px;
+}
+.button {
+  width: 80px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  background-color: #3700b3;
+  color: white;
+}
+.title {
+  width: 150px;
+  height: calc(100% - 40px);
+  border-right: 1px solid white;
+  padding: 0 5px 0 5px;
+  
+}
+p {
+  font-family: "Bungee", cursive;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+.message-content {
+  position: absolute;
+  width: 590px;
+  height: 460px;
+  top: 45px;
+  left: 180px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
