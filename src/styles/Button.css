@@ -1,0 +1,39 @@
+.button {
+  width: 300px;
+  background-color: #e86101;
+  border-radius: none;
+  color: white;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button-avatar {
+  width: 80px;
+  background-color: #e86101;
+  border-radius: none;
+  color: white;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button-signout {
+  width: 100px;
+  background-color: #e86101;
+  border-radius: none;
+  color: white;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button-signout:hover {
+  background-color: #c65200;
+}
+.button:hover {
+  background-color: #c65200;
+}
+.button-avatar:hover {
+  background-color: #c65200;
+}

@@ -1,0 +1,9 @@
+.input-form-field {
+    margin: 16px 0;
+}
+input{
+    width: 300px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
