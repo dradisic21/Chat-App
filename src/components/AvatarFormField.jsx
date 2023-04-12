@@ -39,7 +39,7 @@ export function AvatarFormField(props) {
           Previous
         </button>
 
-        <img src={avatarImages[index]} alt={index} width={100} />
+        <img src={avatarImages[index]} alt={index} />
 
         <button
           className="button-avatar"

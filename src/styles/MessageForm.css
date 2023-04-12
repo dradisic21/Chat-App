@@ -14,3 +14,16 @@
 .message-form input:focus {
     outline-color: #ccc;
 }
+
+@media screen and (max-width: 1440px) {
+    .message-form input {
+        width: 800px;
+    }
+   
+}
+@media screen and (max-width: 600px) {
+    .message-form input {
+      width: 200px;
+      margin: 0;
+    }
+  }

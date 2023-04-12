@@ -7,3 +7,10 @@ input{
     border: 1px solid #ccc;
     border-radius: 10px;
 }
+
+@media (max-width: 418px) {
+    input {
+      width: 200px;
+
+    }
+  }

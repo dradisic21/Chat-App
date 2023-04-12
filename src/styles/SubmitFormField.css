@@ -4,3 +4,10 @@
 .submit-form-field button {
     width: 100px;
 }
+
+@media screen and (max-width: 600px) {
+
+    .submit-form-field button {
+      width: 80px;
+    }
+  }

@@ -37,3 +37,17 @@
 .button-avatar:hover {
   background-color: #c65200;
 }
+
+
+@media screen and (max-width: 600px) {
+  .button-signout {
+    width: 80px;
+  }
+}
+@media (max-width: 418px) {
+  .button {
+    width: 200px;
+   }
+}
+
+
