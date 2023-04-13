@@ -10,6 +10,8 @@
     height: 40px;
     margin-right: 10px;
     padding-left: 20px;
+    animation: none;
+    border: 1px solid #ccc;
 }
 .message-form input:focus {
     outline-color: #ccc;

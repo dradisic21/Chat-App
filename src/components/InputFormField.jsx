@@ -10,7 +10,7 @@ export function InputFormField(props) {
     <FormField>
       <label>{props.label}</label>
       <div>
-        <input type={props.type} onChange={handleChange} value={props.value} placeholder={props.placeholder}/>
+        <input required className={props.className} type={props.type} onChange={handleChange} value={props.value} placeholder={props.placeholder}/>
       </div>
     </FormField>
   );
